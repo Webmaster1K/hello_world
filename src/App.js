@@ -3,21 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p style={{color: "red"}}><b>Hello World</b></p>
+      <p style={{color: "orange"}}><b>Hello World</b></p>
+      <p style={{color: "yellow"}}><b>Hello World</b></p>
+      <p style={{color: "green"}}><b>Hello World</b></p>
+      <p style={{color: "lightblue"}}><b>Hello World</b></p>
+      <p style={{color: "blue"}}><b>Hello World</b></p>
+      <p style={{color: "purple"}}><b>Hello World</b></p>
     </div>
   );
 }
